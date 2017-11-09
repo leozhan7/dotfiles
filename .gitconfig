@@ -1,0 +1,12 @@
+[user]
+	name = Leo
+	email = leozhan@kkbox.com
+[color]
+	ui = auto
+[alias]
+	br = branch
+	ci = commit
+	cim = commit -m
+	co = checkout
+	st = status
+	df = diff
