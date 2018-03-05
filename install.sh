@@ -5,4 +5,3 @@ ln -s "`pwd`/.vim" ~/.vim
 ln -s "`pwd`/.vimrc" ~/.vimrc
 ln -s "`pwd`/.bashrc" ~/.bashrc
 source ~/.bash_profile
-source ~/.bashrc
