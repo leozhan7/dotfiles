@@ -1,1 +1,1 @@
-# shell-environment-setting
+# dotfiles
