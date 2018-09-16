@@ -30,8 +30,8 @@
 	#############
 	ps = push
 	pso = push origin
-	psf = push -f
-	psfo = push -f origin
+	psf = push --force-with-lease
+	psfo = push --force-with-lease origin
 	#############
 	rb = rebase
 	rbi = rebase -i
