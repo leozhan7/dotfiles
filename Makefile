@@ -13,7 +13,6 @@ link:
 	ln -fs `pwd`/gitconfig ~/.gitconfig
 	ln -fs `pwd`/vim ~/.vim
 	ln -fs `pwd`/vimrc ~/.vimrc
-	ln -fs `pwd`/bashrc ~/.bashrc
 	ln -fs `pwd`/zshrc ~/.zshrc
 sync:
 	git pull
