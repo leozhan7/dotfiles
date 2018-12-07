@@ -4,9 +4,9 @@ init:
 	# powerlevel9k
 	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 	# zsh-syntax-highlighting
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $(ZSH)/plugins/zsh-syntax-highlighting/
+	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/
 	# zsh-autosuggestions
-	git clone https://github.com/zsh-users/zsh-autosuggestions.git $(ZSH)/plugins/zsh-autosuggestions/
+	git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plugins/zsh-autosuggestions/
 	make link
 link:
 	ln -fs `pwd`/bash_profile ~/.bash_profile
