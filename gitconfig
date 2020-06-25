@@ -4,20 +4,20 @@
 [core]
 	excludesfile = ~/.gitignore
 [color]
-        ui = auto
+    ui = auto
 [alias]
 	fp = fetch -p
 	#############
-        br = branch
+    br = branch
 	brr = branch -r
 	#############
-        ci = commit
-        cim = commit -m
+	ci = commit
+	cim = commit -m
 	#############
-        co = checkout
+    co = checkout
 	cotb = checkout --track -b
 	#############
-        st = status
+    st = status
 	#############
 	df = diff
 	#############
