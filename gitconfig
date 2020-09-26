@@ -1,10 +1,11 @@
 [user]
 	name = LeoZhan
-	email = leozhan@kkbox.com
+	email = leo3838ok@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+	quotepath = false
 [color]
-    ui = auto
+	ui = auto
 [alias]
 	fp = fetch -p
 	#############
@@ -39,3 +40,9 @@
 	re = reset
 	reh = reset --hard
 	rehh = reset --hard HEAD
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8
+[i18n]
+	logoutputencoding = utf-8
