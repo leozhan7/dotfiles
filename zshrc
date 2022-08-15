@@ -101,5 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias git='LANG=en_GB git'
+alias ghclear='git branch --merged | egrep -v "(\\*|staging|testing|master|main)" | xargs git branch -d'
 
 source ~/.customrc
